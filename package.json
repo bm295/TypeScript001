@@ -1,29 +1,30 @@
 {
-  "name": "TypeScript001",
+  "name": "typescript001-angular19",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node dist/app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bm295/TypeScript001.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bm295/TypeScript001/issues"
-  },
-  "homepage": "https://github.com/bm295/TypeScript001#readme",
-  "devDependencies": {
-    "@types/express": "^4.17.6",
-    "tslint": "^6.1.2",
-    "typescript": "^3.8.3"
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "@angular/animations": "^19.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/compiler": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/forms": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
+    "@angular/platform-browser-dynamic": "^19.0.0",
+    "@angular/router": "^19.0.0",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.8.1",
+    "zone.js": "^0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.0.0",
+    "@angular/cli": "^19.0.0",
+    "@angular/compiler-cli": "^19.0.0",
+    "@types/node": "^22.9.0",
+    "typescript": "~5.6.3"
   }
 }
